@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px;
+  background-color: blanchedalmond;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background-image: url(https://images.saymedia-content.com/.image/t_share/MTc0MzkwMTM5Mjc4NjY1MDY0/vincent-van-goghs-starry-night-symbolism-and-iconography-part-1.jpg)
+}
+
+.header h1 {
+  font-size: 50px;
+  color: #bf0603;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+h2 {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-shadow: 2px 2px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #ee9b00;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+.mask1 {
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="transbox">
+  <h1>The Greatest Painters of All Time</h1>
+</div>
+
+<div class="topnav">
+  <a href="https://www.wikiart.org/en/michelangelo/all-works#!#filterName:all-paintings-chronologically,resultType:masonry">Michelangelo's Work</a>
+  <a href="https://www.wikiart.org/en/vincent-van-gogh/all-works#!#filterName:all-paintings-chronologically,resultType:masonry">Van Gogh's Work</a>
+  <a href="https://www.wikiart.org/en/leonardo-da-vinci/all-works#!#filterName:all-paintings-chronologically,resultType:masonry">Da Vinci's Work</a>
+  <a href="https://www.timeout.com/newyork/art/top-famous-paintings-in-art-history-ranked" style="float:right">Most Famous Paintings according to Timeout.com</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Michelangelo</h2>
+      <h5>(1475 - 1564)</h5>
+      <div class="fakeimg"><img src="images/bigmike.jpg"></div>
+      <p>Most well known for his painting of the Sistine Chapel, Michelangelo was a well-renowed High Renaissance Era painter, architect, sculptor and poet. 
+        His artwork, specifically, would influence the many generations to come after him, being considered one of the greatest artists of the Renaissance, and even all time.
+      </p>
+    </div>
+    <div class="card">
+      <h2>Vincent Van Gogh</h2>
+      <h5>(1853 - 1890)</h5>
+      <div class="fakeimg" style="height: 450px;"><img src="images/mozartear.jpg"></div>
+      <p>Vincent Van Gogh was a Dutch painter, most well known for his work "Starry Night", one of the most famous and recognizable paintings on the planet. Van Gogh is also known
+        for his cutting off of his ear, which he did due to a mental illness that he suffered through his whole life. This led him to eventually committ suicide in 1890.
+      </p>
+    </div>
+    <div class="card">
+      <h2>Current Museum Exhibitions (Mass Moca)</h2>
+      <h5>(1999 - Present)</h5>
+      <div class="fakeimg"><img src="images/massmoca.jpg"></div>
+      <p> The Mass Moca is a museum in North Adams Massachusetts in which we have claimed small partial-ownership for the past 21 years and which we have began to place in some of our owned artworks in and out of for the past couple decades.
+      </p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Us</h2>
+      <div class="fakeimg" style="height:230px;"><img src="images/enthusiast.jpg"></div>
+      <p>Like you, we are also art enthusiasts. We are stationed in Chesterfield, Massachusetts.</p>
+    </div>
+    <div class="card">
+      <h3>Other Notable Artists</h3>
+      <div class="fakeimg"><a href="https://www.britannica.com/biography/Rembrandt-van-Rijn"><img src="images/remgoat.webp"></a><p>Rembrandt</p></div>
+      <div class="fakeimg"><a href="https://www.britannica.com/biography/Pablo-Picasso"><img src="images/pablopigoat.jpg"></a><p>Pablo Picassi</p></div>
+      <div class="fakeimg"><a href="https://www.britannica.com/biography/Claude-Monet"><img src="Images/claudemogoatt.jpg"></a><p>Claude Monet</p></div>
+    </div>
+    <div class="card">
+      <h3>Follow Us</h3>
+      <p>You can follow us on social media.<a href="https://twitter.com"><img src="images/twitter.png"></a></p>
+ 
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Copyright 2022. 
+    <br>The Painting Enthusiasts Co.</p>
+    Walpole High School Web Design
+</div>
+
+</body>
+</html>
